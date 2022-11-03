@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+}
+
+
+.parent {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+#heading {
+    color: aquamarine;
+    margin-top: 8%;
+    font-size: 80px;
+}
+
+.left {
+    text-align: center;
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.right {
+    text-align: center;
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.player {
+    color: aquamarine;
+}
+
+footer {
+    color: azure;
+    position: absolute;
+    bottom: 5%;
+    left: 46%;
+}
