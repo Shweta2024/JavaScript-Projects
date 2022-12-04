@@ -10,4 +10,5 @@
 
 5) Simon Game :- [link](https://shweta2024.github.io/JavaScript-Projects/Simon-Game/)
 
+6) Calculator :- [link](https://shweta2024.github.io/JavaScript-Projects/Calculator/)
 
