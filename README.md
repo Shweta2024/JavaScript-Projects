@@ -2,6 +2,8 @@
 
 Hey there! This Repository contains all the JavaScript Projects that I'm building while learning JavaScript and you can too contribute to this repository either by fixing the existing issues or new issue on your own. New JavaScript projects are also welcome.
 
+You can join the discord channel from here :- [link](https://discord.gg/ggjjfaTR)
+
 - ##### [Project List](#project-list)
 - ##### [Contributing Guideline](#contributing-guideline)
 - ##### [Issues](https://github.com/Shweta2024/JavaScript-Projects/issues)
@@ -85,4 +87,5 @@ Then add a title and description to your pull request that explains your contrib
 
 ## Contact Me
 
-If you find any issue then you can contact me on [LinkedIn](https://www.linkedin.com/in/shweta-bhagat-5a3969200/) or [Mail](bhagatshweta0216@gmail.com)
+If you find any issue then you can reach out to me on [LinkedIn](https://www.linkedin.com/in/shweta-bhagat-5a3969200/) or [Mail](bhagatshweta0216@gmail.com)
+or you can join the public channel from here :- [link](https://discord.gg/ggjjfaTR)
