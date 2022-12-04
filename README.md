@@ -8,4 +8,6 @@
 
 4) BMI Calculator :- [link](https://shweta2024.github.io/JavaScript-Projects/BMI-calculator/)
 
+5) Simon Game :- [link](https://shweta2024.github.io/JavaScript-Projects/Simon-Game/)
+
 
