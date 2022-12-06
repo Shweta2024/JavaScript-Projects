@@ -1,93 +1,46 @@
+<div align="center">
+<img width=500 src="https://www.ankitweblogic.com/javascript/js_img/javascript.png"/>
+</div><br>
+
+
 # JavaScript-Projects
 
-Hey there! This Repository contains all the JavaScript Projects that I'm building while learning JavaScript and you can too contribute to this repository either by fixing the existing issues or new issue on your own. New JavaScript projects are also welcome.
+- This Repository contains the JavaScript Projects that one should building while learning JavaScript.
+- You can contribute to this repository either by fixing the existing issues or new issue on your own. New JavaScript projects are also welcomed.
+- Join our [Discord Channel](http://discord.openinapp.co/discord-1-10390)
 
-You can join the discord channel from here :- [link](https://discord.gg/ggjjfaTR)
+<br>
 
-- ##### [Project List](#project-list)
-- ##### [Contributing Guideline](#contributing-guideline)
-- ##### [Issues](https://github.com/Shweta2024/JavaScript-Projects/issues)
-- ##### [Contact Me](#contact-me)
+||||
+|--|--|--|
+|[Project List](#project-list)|[Contributing Guidelines](https://github.com/Shweta2024/JavaScript-Projects/blob/main/ContributingGuidelines.md)|[Issues](https://github.com/Shweta2024/JavaScript-Projects/issues)|
+<br>
 
+<details><summary><h2>Project List</h2></summary>
 
-## Project List
+|S.No.|Projects|
+|----|----|
+|1.|[Dice Game](https://shweta2024.github.io/JavaScript-Projects/The-Dice-Game/)|
+|2.|[Drum Kit](https://shweta2024.github.io/JavaScript-Projects/Drum-Kit/)|
+|3.|[Weather App](https://shweta2024.github.io/JavaScript-Projects/Weather-App/)|
+|4.|[BMI Calculator](https://shweta2024.github.io/JavaScript-Projects/BMI-calculator/)|
+|5.|[Simon Game](https://shweta2024.github.io/JavaScript-Projects/Simon-Game/)|
+|6.|[Calculator](https://shweta2024.github.io/JavaScript-Projects/Calculator/)|
 
-Find the links to the projects that I have made till now :- 
+</details>
 
-1) The Dice Game :- [link](https://shweta2024.github.io/JavaScript-Projects/The-Dice-Game/)
+<br>
 
-2) Drum Kit :- [link](https://shweta2024.github.io/JavaScript-Projects/Drum-Kit/)
+## Maintainers
 
-3) Weather App :- [link](https://shweta2024.github.io/JavaScript-Projects/Weather-App/)
+| Maintainer   | Collaborator |
+| :----------: | :----------: |
+| <a href="https://github.com/utkarsh006"><img src="https://avatars.githubusercontent.com/u/75883328?v=4" width=150px height=150px /></a><br>Shweta Bhagat<br><a href="https://www.linkedin.com/in/shweta-bhagat-5a3969200/"><img src="https://t0.gstatic.com/images?q=tbn:ANd9GcRMCA3j2A8hfLl9p5UAU5nd9lvqLlNZvqoU4xOsZ192uH4IYS6X" width="32px" height="32px"></a> | <a href="https://github.com/utkarsh006"><img src="https://avatars.githubusercontent.com/u/94545831?v=4" width=150px height=150px /></a><br>Utkarsh Saxena<br><a href="https://www.linkedin.com/in/utkarsh06/"><img src="https://t0.gstatic.com/images?q=tbn:ANd9GcRMCA3j2A8hfLl9p5UAU5nd9lvqLlNZvqoU4xOsZ192uH4IYS6X" width="32px" height="32px"></a> |
+<br>
 
-4) BMI Calculator :- [link](https://shweta2024.github.io/JavaScript-Projects/BMI-calculator/)
+## Contributors
 
-5) Simon Game :- [link](https://shweta2024.github.io/JavaScript-Projects/Simon-Game/)
+<a href="https://github.com/Shweta2024/JavaScript-Projects/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Shweta2024/JavaScript-Projects" />
+</a>
 
-6) Calculator :- [link](https://shweta2024.github.io/JavaScript-Projects/Calculator/)
-
-
-
-## Contributing Guideline
-
-All contributions are valuable😄
-
-Step 1 : Create an issue
-- you can create an issue and can start working on it once I'll assign it.
-
-Step 2 : Fork the Project
-
-- Create a Local Copy of this Repository on your Github Profile. Keep a reference to the original project in upstream remote.
-
-- ```$ git clone https://github.com/<your-username>/JavaScript-Projects.git```
-
-- ```$ cd JavaScript-Projects```
-
-- ```$ git remote add upstream ```https://github.com/Shweta2024/JavaScript-Projects.git
-  
-  
-Step 3 : Branch
- 
-- Create a new branch.
-
-- The name of the branch should be the project name followed by issue number.(Example : Calculator20)
-
-- This will create a new branch with name Branch_Name and switch to that branch.👇
-
-- ```$ git checkout -b branch_name```
- 
-Step 4 : Work on the assigned issue
-  
-Step 5 : Add all the required files
-
-- This will add all the files.👇
-  
-- ```$ git add .```
-
-- This will add the file with name fileName.
-
-  
-- ```$ git add <fileName>```
-  
-Step 6 : Commit
-
-- Write a short and good commit message.
-
-- ```$ git commit -m "message"```
-
-Step 7 : Push all the changes to the current Branch
-  
-- ```$ git push -u origin Branch_Name```
-
-Step 8 : Pull Request
-
-**MAKE PULL REQUESTS TO THE MASTER BRANCH**
-
-- Go to your repository in browser and click on compare and pull requests. 
-Then add a title and description to your pull request that explains your contribution.
-
-
-## Contact Me
-
-If you find any issue then you can reach out to me on [LinkedIn](https://www.linkedin.com/in/shweta-bhagat-5a3969200/) or [Mail](bhagatshweta0216@gmail.com)
-or you can join the public channel from here :- [link](https://discord.gg/ggjjfaTR)
