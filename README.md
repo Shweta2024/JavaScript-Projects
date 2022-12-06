@@ -81,6 +81,8 @@ Step 7 : Push all the changes to the current Branch
 
 Step 8 : Pull Request
 
+**MAKE PULL REQUESTS TO THE MASTER BRANCH**
+
 - Go to your repository in browser and click on compare and pull requests. 
 Then add a title and description to your pull request that explains your contribution.
 
