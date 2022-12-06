@@ -8,12 +8,8 @@
 - This Repository contains the JavaScript Projects that one should build while learning JavaScript.
 - You can contribute to this repository either by fixing the existing issues or new issue on your own. New JavaScript projects are also welcomed.
 - Join our [Discord Channel](http://discord.openinapp.co/discord-1-10390)
+- Check [Contributing Guidelines](https://github.com/Shweta2024/JavaScript-Projects/blob/main/ContributingGuidelines.md) here.
 
-<br>
-
-||||
-|--|--|--|
-|[Project List](#project-list)|[Contributing Guidelines](https://github.com/Shweta2024/JavaScript-Projects/blob/main/ContributingGuidelines.md)|[Issues](https://github.com/Shweta2024/JavaScript-Projects/issues)|
 <br>
 
 <details><summary><h2>Project List</h2></summary>
