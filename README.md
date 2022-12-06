@@ -5,7 +5,7 @@
 
 # JavaScript-Projects
 
-- This Repository contains the JavaScript Projects that one should building while learning JavaScript.
+- This Repository contains the JavaScript Projects that one should build while learning JavaScript.
 - You can contribute to this repository either by fixing the existing issues or new issue on your own. New JavaScript projects are also welcomed.
 - Join our [Discord Channel](http://discord.openinapp.co/discord-1-10390)
 
