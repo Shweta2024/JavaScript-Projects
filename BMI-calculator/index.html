@@ -5,14 +5,100 @@
     <meta charset="utf-8">
     <title>BMI Calculator</title>
 </head>
+<script>
+    function getmybmivalue() {
+        let weight = document.getElementById('weight').value;
+        let height = document.getElementById('height').value;
+        let BMI = weight / (height * height);
+        document.getElementById('BMI-value').value = BMI;
+        if (BMI <= 18.5) {
+            document.getElementById('result').innerHTML = "You are under-weight !!";
+        }
+        else if (BMI > 18.5 && BMI <= 25.0) {
+            document.getElementById('result').innerHTML = "You are healthy !!";
+        }
+        else if (BMI > 25.0 && BMI <= 30) {
+            document.getElementById('result').innerHTML = "You are over-weight !!";
+        }
+        else {
+            document.getElementById('result').innerHTML = "You are suffering from obesity !!";
+        }
+    }
+</script>
 
+<style>
+    body{
+        background-color: rgb(0, 208, 255);
+        background-image: linear-gradient(pink, rgb(0, 208, 255));
+        background-repeat: no-repeat;
+        background-size: contain;
+        
+    }
+    h1{
+        display: flex;
+        justify-content: center;
+        margin: 7vh auto 3vh auto; 
+        font-family: 'Roboto Slab', serif;
+        color: crimson;
+    }
+    .input-values{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border: 2px solid rgb(115, 115, 115);
+        border-radius: 5px;
+        width: 50vw;
+        margin: 10vh 25vw 10vh 25vw;
+    }
+    #height{
+        width: 18vw;
+        height: 5vh;
+        margin: 1vh auto 1vh auto;
+    }
+    #weight{
+        width: 18vw;
+        height: 5vh;
+        margin: 1vh auto 1vh auto;
+    }
+    #BMI-value{
+        width: 18vw;
+        height: 5vh;
+        margin: 1vh auto 1vh auto;
+    }
+    .input-values button{
+        width: 9vw;
+        height: 4vh;
+        border: none;
+        border-radius: 3px;
+        margin: 2vh auto 2vh auto;
+        color: aliceblue;
+        background-color: rgb(68, 198, 58);
+    }
+    #result{
+        margin: 2vh auto 2vh auto;
+        font-family: 'Bebas Neue', cursive;
+        color: rgb(251, 255, 0);
+    }
+</style>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <body>
     <h1>BMI Calculator</h1>
-    <form action="/" method="post">
-        <input type="text" name="height" placeholder="Enter your height">
-        <input type="text" name="weight" placeholder="Enter your weight">
-        <button type="sumit" name="submit">Calculate BMI</button>
+    <form action="/" method="post" class="input-values">
+        <input type="text" name="height" id="height" placeholder="Enter your height in metres">
+        <input type="text" name="weight" id="weight" placeholder="Enter your weight in kilograms">
+        <input type="text" name="BMI Value" id="BMI-value" placeholder="BMI Value">
+        <button type="submit" name="submit" class="btn-btn" onclick="getmybmivalue()">Calculate BMI</button>
+        <h4 id="result"></h4>
     </form>
+
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
