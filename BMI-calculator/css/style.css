@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body,form{
+    
+    display:flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+body{
+    height: 100vh;
+    background-image: url('/images/yoga.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+form{
+    width: 350px;
+    margin: 70px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+    
+}
+
+h1{
+    color: black;
+    font-family: monospace;
+    font-weight: 200px;
+    font-size: 45px;
+}
+input{
+    margin: 15px;
+    padding: 15px;
+    width: 100%;
+    outline: none;
+}
+
+button{
+    font-size: 15px;
+    font-family: monospace;
+    margin-top: 10px;
+    border: black;
+    background-color: black;
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+    color:white;
+}
