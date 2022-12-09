@@ -4,7 +4,8 @@ const bodyParser = require("body-parser");
 const app = express();
 
 app.use(bodyParser.urlencoded({ extended: true }));
-
+app.use("/css", express.static(__dirname + "/css"));
+app.use("/images", express.static(__dirname + "/images"));
 app.get("/", function (req, res) {
     res.sendFile(__dirname + "/index.html");
 });
