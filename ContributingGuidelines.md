@@ -5,6 +5,15 @@
 - Add **Proper comments** in your code modules. It is done to ensure that if any other contributor make changes (improves) your project in future it would be 
 easier for him/her to do so.
 
+- Create a README.md file **inside your project** which elaborates your project well. It should contain **following points :**
+   - Objective of your project.
+   - What task does it do? How did you implement that?
+   - Your learnings from the project.
+   - Tech Stack Used.
+   - Working Video attached of your project.
+
+<br>
+
 ## Step 1 : Create an issue
 - You can create an issue and can start working on it once we assign it.
 
