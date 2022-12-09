@@ -1,4 +1,3 @@
-
 # 💬 Random Quote
 
 A simple random programming quotes generator
