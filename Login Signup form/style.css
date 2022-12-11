@@ -1,3 +1,8 @@
+/* google font link*/
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins:ital,wght@0,500;1,100;1,200;1,300;1,400&display=swap');
+
+
+/* variables */
 :root{
     --primary-color:#9370db;
     --secondary-color:#9370db;
@@ -12,9 +17,7 @@
     --insta-color:#E1306C;
 }
 
-
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins:ital,wght@0,500;1,100;1,200;1,300;1,400&display=swap');
-
+/* css start */
 *{
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -50,7 +53,7 @@ html,body{
     text-align: center;
 
 }
-
+/* form css */
 .form-wrapper{
     width: 100%;
     max-width: 28rem;
