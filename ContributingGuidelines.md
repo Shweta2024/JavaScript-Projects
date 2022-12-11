@@ -1,6 +1,6 @@
 # CONTRIBUTING GUIDELINES
 
-- All contributions are valuable😄
+- All contributions are valuable😄 Each contributor is allowed to work on **ONE ISSUE AT A TIME**.
 
 - Add **Proper comments** in your code modules. It is done to ensure that if any other contributor make changes (improves) your project in future it would be 
 easier for him/her to do so.
