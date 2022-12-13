@@ -1,0 +1,37 @@
+html{
+    font-size: 10px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+#image-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 6px solid white;
+    width:80rem;
+    height: 70rem;
+}
+
+img{
+    border: 2px solid black;
+    height:60rem;
+    width: 80rem;
+}
+
+button{
+    width: 15rem;
+    height: 4rem;
+    border-radius: 15rem;
+    margin: 1rem 0rem;
+}
