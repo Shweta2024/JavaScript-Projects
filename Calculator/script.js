@@ -34,6 +34,38 @@ function fact() {
     screen.value=f;
 
 }
+function square() {
+    
+    num = screen.value;
+    f=num*num;
+
+    screen.value=f;
+
+}
+function cube() {
+    
+    num = screen.value;
+    f=num*num*num;
+
+    screen.value=f;
+
+}
+function sqrtfunc() {
+    
+    num = screen.value;
+    f=Math.sqrt(num);
+
+    screen.value=f;
+
+}
+function cbrtfunc() {
+    
+    num = screen.value;
+    f=Math.cbrt(num);
+
+    screen.value=f;
+
+}
 
 function backsc(){
     screen.value=screen.value.substr(0,screen.value.length-1);
