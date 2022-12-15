@@ -1,5 +1,5 @@
 <div align="center">
-<img width=500 src="https://www.ankitweblogic.com/javascript/js_img/javascript.png"/>
+<img width="400" src="https://www.ankitweblogic.com/javascript/js_img/javascript.png"/>
 </div><br>
 
 
