@@ -19,7 +19,7 @@ Pair Games is a Memory matching game that tests the memory capabilities of the u
 
 ### Screennshots
 
-<figure><img src="images/screenshot (338).png" alt=""><figcaption><p>Click Start to enter The Game</p></figcaption></figure>
+<figure><img src="images/Screenshot (338).png" alt=""><figcaption><p>Click Start to enter The Game</p></figcaption></figure>
 
 <figure><img src="images/Screenshot (339).png" alt=""><figcaption><p>The Game at the starting.</p></figcaption></figure>
 
