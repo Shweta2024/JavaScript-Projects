@@ -1,0 +1,138 @@
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  height: 100vh;
+  background-color: rgb(100, 171, 248);
+  flex-direction: column;
+  padding: 4rem;
+  padding-top: 1rem;
+}
+body h1{
+ color: rgb(255, 255, 255);
+ padding: 2rem;
+ padding-top: 0;
+ font-size: 2.5rem;
+}
+.content{
+  width: 450px;
+  height: 280px;
+  padding: 30px;
+  background: rgb(214, 212, 212);
+  border-radius: 9px;
+  transition: height 0.2s ease;
+}
+.content.display{
+  height: 400px;
+}
+.content .upload-file{
+  inset:1px;
+  height: 100%;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 2px dashed #3c3c3c;
+ 
+}
+.content .upload-file i{
+   width:30px;
+   height: 30px;
+   color:black
+}
+.content.display .upload-file{
+  border: none;
+  margin-bottom: 10px;
+  
+}
+.upload-file p{
+  font-size: 1.06rem;
+  margin-top: 20px;
+}
+.content.display .upload-file p{
+  display: none;
+}
+.content.display .upload-file img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.content .change-content{
+  opacity: 0;
+  margin-top: 35px;
+  pointer-events: none;
+}
+.content.display .change-content{
+  opacity: 1;
+  pointer-events: auto;
+  transition: opacity 0.5s 0.05s ease;
+  height: 90%;
+  
+}
+.content.display .change-content .quality{
+  margin-top: 10px;
+}
+
+
+.content .row{
+  display: flex;
+  justify-content: space-between;
+}
+.content .row .column{
+  width: calc(100% / 2 - 15px);
+}
+.row .column label{
+  font-size: 1.06rem;
+}
+.sizes .column input{
+  width: 100%;
+  height: 49px;
+  outline: none;
+  margin-top: 7px;
+  padding: 0 15px;
+  font-size: 1.06rem;
+  border-radius: 4px;
+  border: 1px solid #aaa;
+}
+.sizes .column input:focus{
+  padding: 0 14px;
+  border: 2px solid #342777;
+}
+.content .checkbox{
+  margin-top: 20px;
+}
+.checkbox .column{
+  display: flex;
+  align-items: center;
+}
+.checkbox .column input{
+  width: 17px;
+  height: 17px;
+  margin-right: 9px;
+  accent-color: #927DFC;
+}
+.content .dwnld-btn{
+  width: 100%;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.06rem;
+  border-radius: 5px;
+  padding: 15px 0;
+  margin: 30px 0 10px;
+  background: #3a2d7a;
+  text-transform: uppercase;
+}
