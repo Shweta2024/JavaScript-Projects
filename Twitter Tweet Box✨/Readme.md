@@ -1,5 +1,6 @@
 # Twitter Tweet Box ✨ #67
-## Related Issue #67
+## Related Issue 
+Resolved issue [Twitter Tweet box](https://github.com/Shweta2024/JavaScript-Projects/issues/67)
 
 ## Objective:
 Create a **Twitter tweet box** with a word limit of 100 words, such that if the user enters more than 100 words then it will cut the rest words.
