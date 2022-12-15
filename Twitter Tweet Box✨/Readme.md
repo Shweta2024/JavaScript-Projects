@@ -1,4 +1,6 @@
-# Twitter Tweet Box ✨
+# Twitter Tweet Box ✨ #67
+## Related Issue #67
+
 ## Objective:
 Create a **Twitter tweet box** with a word limit of 100 words, such that if the user enters more than 100 words then it will cut the rest words.
 ## Tech Stack Used
