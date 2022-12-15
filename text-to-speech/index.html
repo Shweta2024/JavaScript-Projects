@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- script -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-L85RJPZEHX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-L85RJPZEHX');
+  </script>
+
+<!-- link of css file -->
+  <link rel="stylesheet" href="style.css">
+
+  <title> Text-To-Speech</title>
+</head>
+
+<body>
+  <div class="main">
+
+
+    <div id="section-1" class="section-alignment">
+
+      <!-- Top content -->
+      <h2 id="landing-header">Text-To-Speech</h2>
+      <div class="padding-semi-large"></div>
+
+      <div class="padding"></div>
+
+      <textarea type="text" id="textInput" rows="8" placeholder="Enter text here to speak it"></textarea>
+
+      <div class="padding-semi-large"></div>
+
+
+      <div id="app-store-buttons">
+        <button id="speakTextButton" class="button-standard" onclick="speakInputText()">Speak Text<img class="icon-link"
+            src="img/speakIcon.svg"></button>
+
+        <p>|</p>
+
+        <button id="pauseButton" class="button-standard" onclick="pauseSpeech()">Pause<img class="icon-link-small"
+            src="img/pauseIcon.svg"></button>
+
+        <p>|</p>
+
+        <button class="button-standard" onclick="stopSpeech()">Stop<img class="icon-link-small"
+            src="img/stopIcon.svg"></button>
+
+      </div>
+
+      <div id="dropdowns">
+        <div class="optionsDiv">
+          <select name="voiceOptions" id="voiceOptions" onchange="changeVoice(this.value)">
+            <option value="voice1">Daniel's voice</option>
+            <option value="voice7">Samantha's voice</option>
+            <option value="voice3">Alex's voice</option>
+            <option value="voice6">Olivia's voice</option>
+            <option value="voice2">Raj's voice</option>
+            <option value="voice4">Fiona's voice</option>
+            <option value="voice5">Fred's voice</option>
+            <option value="voice8">Tessa's voice</option>
+            <option value="voice9">Victoria's voice</option>
+          </select>
+        </div>
+
+        <div class="optionsDiv">
+          <select name="speedOptions" id="speedOptions" onchange="changeVoiceSpeed(this.value)">
+            <option value="speed1">1x speed</option>
+            <option value="speed0.75">0.75x speed</option>
+            <option value="speed0.5">0.5x speed</option>
+            <option value="speed1.25">1.25x speed</option>
+            <option value="speed1.5">1.5x speed</option>
+            <option value="speed1.75">1.75x speed</option>
+            <option value="speed2">2x speed</option>
+
+          </select>
+        </div>
+      </div>
+
+      <div id="indicators">
+        <p>Created by HTML CSS JS <br> ...Riya Govind Dangra...</p>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
