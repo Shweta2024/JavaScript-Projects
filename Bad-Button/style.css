@@ -3,10 +3,24 @@
     margin: 0;
     box-sizing: border-box;
     user-select: none;
+    
+}
+body {
+  background-image: url("img2.jpg");
+  animation: gradient 50s ease infinite;
+  height: 100vh;
 }
 
-body {
-    background-color: rgb(31, 31, 31);
+@keyframes gradient {
+0% {
+  background-position: 0% 0%;
+}
+50% {
+  background-position: 40% 100%;
+}
+100% {
+  background-position: 0% 0%;
+}
 }
 
 button {
@@ -19,6 +33,95 @@ button {
     font-size: 1.5rem;
     border-radius: 5px;
     border: none;
-    box-shadow: 1px 1px 5px black;
-    background-color: white;
+    box-shadow: 1px 1px 5px rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    background-image: url("img4.jpg");
+    background-repeat: no-repeat;
+    background-size: 168px 121px;
+    color: rgb(255, 255, 255);
 }
+
+@keyframes glowing {
+    0% {
+      background-color: #000000;
+      box-shadow: 0 0 5px #ffffff;
+    }
+    50% {
+      background-color: #000000;
+      box-shadow: 0 0 20px blue;
+    }
+    100% {
+      background-color: #000000;
+      box-shadow: 0 0 5px red;
+    }
+  }
+  button {
+    animation: glowing 1300ms infinite;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    
+  }
+  
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background: #000; */
+    
+  }
+  
+  h4{
+    position: relative;
+    margin:20px 0 0 44px;
+    font-size:4em;
+    font-weight: 900;
+    color: #000;
+    z- index:1;
+    overflow: hidden;
+    text-shadow: 0 0 10px #fff, 0 0 10px #fff;
+  }
+  
+  h4:before{
+    content:"";
+    position: absolute;
+    left: 110%;
+    width: 120%;
+    height: 100%;
+    background: linear-gradient(0deg, transparent 0%, #fff 1.0 50%, #fff 100%);
+    animation: animate 5.5s linear forwards;
+    animation-delay: 2s; 
+  
+  }
+  
+  @keyframes animate
+  {
+    0%
+    {
+      left: 110%
+    }
+    100%{
+      left: -20%
+    }
+  }
+  
+  h4 span{
+    color: #ff022c;
+  }
+  
+  video{
+    background-size: cover;
+    position:absolute;
+    top: 0;
+    left: 120px;
+    width: 92%;
+    height:100%;
+    object-fit:cover;
+    z-index:2;
+    pointer-events: none;
+    mix-blend-mode: screen;
+  }
