@@ -1,0 +1,283 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #141e30  10%, #243b55 100%);
+    font-family: monospace;
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+h1 {
+    margin: 20px 0 0;
+    font-weight: 800;
+}
+
+.game-container {
+    padding: 20px 30px;
+    position: relative;
+    margin: auto;
+    height: 40vh;
+    width: 450px;
+}
+
+.figure-container {
+    height: 50vh;
+    fill: transparent;
+    stroke: rgb(143, 130, 130);
+    stroke-width: 4px;
+    stroke-linecap: round;
+    padding-bottom: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pedestal{
+    stroke-width: 10px;
+}
+.bottom-rod {
+    stroke-width: 10px;
+    stroke: rgb(126, 109, 109);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: transparent;
+    position: absolute;
+}
+.rod-part{
+    stroke-width: 10px;
+    stroke: rgb(100, 92, 92);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: transparent;
+    position: absolute;
+}
+
+.head{
+    stroke-width: 10px;
+    stroke: rgb(202, 196, 196);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: transparent;
+    position: fixed;
+}
+
+.body{
+    stroke-width: 10px;
+    stroke: rgb(172, 165, 165);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: transparent;
+    position: absolute;
+}
+
+.left-arm{
+    stroke-width: 10px;
+    stroke: rgb(177, 174, 174);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: transparent;
+    position: absolute;
+}
+
+.right-arm{
+    stroke-width: 10px;
+    stroke: rgb(151, 145, 145);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: transparent;
+    position: absolute;
+}
+
+
+.left-leg{
+    stroke-width: 10px;
+    stroke: rgb(155, 145, 145);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: transparent;
+    position: absolute;
+}
+
+.right-leg{
+    stroke-width: 10px;
+    stroke: rgb(138, 128, 128);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: transparent;
+    position: absolute;
+}
+.display{
+    display: none;
+}
+
+.wrong-letters-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.wrong-letters-container p {
+    margin: 0 0 5px;
+}
+
+.wrong-letters-container span {
+    font-size: 24px;
+}
+
+.word {
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.letter {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 5px;
+    background-color: rgb(32, 29, 29);
+    color: #dfe8f0;
+    text-align: center;
+    margin: 0 5px;
+}
+
+.popup-container {
+    background-color: rgba(23, 23, 27, 0.3);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* display: flex; */
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.instruction{
+    background-color: rgb(24, 22, 22);
+    box-shadow: 0 15px 10px 3px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    width: 40vw;
+    height: fit-content;
+    /* display: flex; */
+    display: block;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease-in-out;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+#play {
+    cursor: pointer;
+    background-color: #fff;
+    color: #000000;
+    border: 0;
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 16px;
+}
+
+#play:active {
+    transform: scale(0.98);
+}
+
+#play:focus {
+    outline: 0;
+}
+.keyboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.key{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 2px solid #000000;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.popup {
+    background: #2980b9;
+    border-radius: 5px;
+    box-shadow: 0 15px 10px 3px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+.rules {
+    border-radius: 5px;
+    box-shadow: 0 15px 10px 3px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+.rules > ul > li {
+    list-style: none;
+    position: relative;
+    font-family: monospace;
+    margin: 20px;
+}
+ul li::before {
+    content: '*';
+    position: absolute;
+    top: 6px;
+    left: 0;
+}
+.popup button {
+    cursor: pointer;
+    background-color: #fff;
+    color: #2980b9;
+    border: 0;
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 16px;
+}
+
+.popup button:active {
+    transform: scale(0.98);
+}
+
+.popup button:focus {
+    outline: 0;
+}
+
+.notification-container {
+    background-color: rgba(58, 49, 49, 0.3);
+    border-radius: 10px 10px 0 0;
+    padding: 15px 20px;
+    position: absolute;
+    bottom: -50px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.notification-container p {
+    margin: 0;
+}
+
+.notification-container.show {
+    transform: translateY(-50px);
+}
