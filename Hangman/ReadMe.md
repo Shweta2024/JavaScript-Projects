@@ -14,3 +14,4 @@ A Hangman is a word guessing game. In this game, you have to guess the word by g
 * JAVASCRIPT
 
 # Video
+[Hangman-video.webm](https://user-images.githubusercontent.com/96866160/208116585-f7b5c6fc-cafa-4b63-a125-2bba5a057f8b.webm)
