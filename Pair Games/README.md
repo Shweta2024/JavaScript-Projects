@@ -17,7 +17,7 @@ Pair Games is a Memory matching game that tests the memory capabilities of the u
 * Time taken by the user to finish the game by matching all the pairs.
 * Number of moves required to match all the pairs
 
-### Screennshots
+### Screenshots
 
 <figure><img src="images/Screenshot (338).png" alt=""><figcaption><p>Click Start to enter The Game</p></figcaption></figure>
 
