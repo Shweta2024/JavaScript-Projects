@@ -12,3 +12,6 @@ A simple ludo game between the two players.
 * CSS
 * JAVASCRIPT
 
+# Video
+https://user-images.githubusercontent.com/97666287/208023641-21d3e21a-1843-403e-8553-13916f3c864b.mp4
+
