@@ -1,0 +1,66 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.div1{
+    background-image:url(https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-size: cover;
+    height: 100vh;
+}
+.div2{
+    width: 60vw !important;
+    justify-content: center;
+    margin:auto;
+    height: 99vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+    width: fit-content;
+    background-color: red;
+}
+.div3{
+    margin-top:32px;
+    display: flex;
+    align-items: center;
+}
+.div4{
+    margin-top:30px;
+    font-size: 20px;
+}
+#res{
+    font-size: larger;
+    font-weight: medium;
+}
+.heading{
+    margin: -100px 10px 4px 10px;
+    text-align: center;
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+span{
+    font-weight: bold;
+}
+input{
+    padding: 12px;
+    margin-right: 12px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+li{
+    list-style: none;
+}
+button{
+    padding: 8px 16px;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 4px;
+    background-color: bisque;
+    border: 1px solid black;   
+}
