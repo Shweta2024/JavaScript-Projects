@@ -19,7 +19,7 @@
     align-items: center;
     padding: 12px;
     width: fit-content;
-    background-color: red;
+    background-color: aliceblue;
 }
 .div3{
     margin-top:32px;
@@ -48,7 +48,7 @@ input{
     margin-right: 12px;
     font-size: 20px;
     border-radius: 8px;
-    border: none;
+    border: 1px solid black;
     outline: none;
 }
 li{
