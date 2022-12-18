@@ -14,4 +14,14 @@ It takes date and time input from the user and then outputs it in a readable for
 * JAVASCRIPT
 
 # Video
-To be added!
+* Part 1: Shows input and output for two different dates (the time field was left empty, it is automatically set to 00:00)
+
+
+https://user-images.githubusercontent.com/76466796/208286133-3398170f-0097-4960-8e58-15aee86bf98b.mp4
+
+* Part 2: Shows the time up feature when the deadline is reached
+
+
+https://user-images.githubusercontent.com/76466796/208286148-39e8632f-6f4f-43b4-968c-dec2ff51c979.mp4
+
+
