@@ -15,6 +15,9 @@ DOM manipulation as well as effectively using some functions like random, includ
 
 HTML, CSS, JS
 
+# Video
+[Screen Recording.webm](https://user-images.githubusercontent.com/96040322/208300161-6a35a68a-fd2a-41bb-abcd-e1eaa92d38c1.webm)
+
 # Screenshots
 ![image](https://user-images.githubusercontent.com/96040322/208292712-3752c49a-433f-4e2b-a057-138ff9590438.png)
 ![image](https://user-images.githubusercontent.com/96040322/208292772-16853dc9-44af-42a2-b444-67e85a3e89cb.png)
