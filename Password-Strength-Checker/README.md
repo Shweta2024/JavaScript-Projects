@@ -16,3 +16,7 @@ DOM manipulation as well as effectively using some functions like random, includ
 HTML, CSS, JS
 
 # Screenshots
+![image](https://user-images.githubusercontent.com/96040322/208292712-3752c49a-433f-4e2b-a057-138ff9590438.png)
+![image](https://user-images.githubusercontent.com/96040322/208292772-16853dc9-44af-42a2-b444-67e85a3e89cb.png)
+![image](https://user-images.githubusercontent.com/96040322/208292858-7bf81eb7-b64d-490c-8b6d-512fb08c1c39.png)
+![image](https://user-images.githubusercontent.com/96040322/208292893-210221c8-df0a-411a-9847-2c0035effb8b.png)
