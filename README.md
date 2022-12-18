@@ -15,20 +15,7 @@
 
 <br>
 
-<details><summary><h2>Project List</h2></summary>
 
-|S.No.|Projects|
-|----|----|
-|1.|[Dice Game](https://shweta2024.github.io/JavaScript-Projects/The-Dice-Game/)|
-|2.|[Drum Kit](https://shweta2024.github.io/JavaScript-Projects/Drum-Kit/)|
-|3.|[Weather App](https://shweta2024.github.io/JavaScript-Projects/Weather-App/)|
-|4.|[BMI Calculator](https://shweta2024.github.io/JavaScript-Projects/BMI-calculator/)|
-|5.|[Simon Game](https://shweta2024.github.io/JavaScript-Projects/Simon-Game/)|
-|6.|[Calculator](https://shweta2024.github.io/JavaScript-Projects/Calculator/)|
-
-</details>
-
-<br>
 
 ## Maintainers
 
