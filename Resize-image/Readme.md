@@ -4,7 +4,7 @@ The objective of this project is to take images as input and modify it according
 
 
 ##What task does it do? How did you implement that?
-In this application we can upload any image and then we can chage the width and height of the image as per choice. We can even reduce the quality of the image and then download this image.
+In this application we can upload any image and then we can change the width and height of the image as per choice. We can even reduce the quality of the image and then download this image.
 
 
 ##Your learnings from the project.
