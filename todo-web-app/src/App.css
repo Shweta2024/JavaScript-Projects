@@ -1,0 +1,49 @@
+.head {
+    font-size: 35px;
+    color: white;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+body {
+    background-image: url("./back.jpg");
+    background-color: green;
+}
+
+#root {
+    background-color: rgb(1, 1, 121);
+    height: max-content;
+    width: max-content;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: rgb(248, 218, 179);
+}
+
+input::placeholder {
+ color: black;
+}
+
+.App {
+    width: fit-content;
+    height: fit-content;
+}
+
+button {
+    border-radius: 17px;
+    font-size: 25px;
+    padding: 7px;
+}
+
+li {
+    font-size: 30px;
+    color: wheat;
+}
