@@ -5,7 +5,7 @@
     font-family: 'Times New Roman', Times, serif;
 }
 body,form{
-    
+
     display:flex;
     align-items: center;
     text-align: center;
@@ -16,7 +16,7 @@ body,form{
 
 body{
     height: 100vh;
-    background-image: url('/images/yoga.jpg');
+    background-image: url('/images/yoga2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -26,9 +26,9 @@ form{
     width: 350px;
     margin: 70px;
     padding: 30px;
-    background-color: white;
+    background-color: #FCFDF2D0;
     border-radius: 20px;
-    
+
 }
 
 h1{
