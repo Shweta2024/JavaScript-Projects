@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* css for styling and enabling dark background */
+        body {
+            background-color: black;
+        }
+
+        h2 {
+            text-align: center;
+            font-weight: lighter;
+            font-size: 60px;
+            margin-top: 0px;
+            color: white;
+        }
+
+        p {
+            text-align: center;
+            font-size: 30px;
+            margin-top: 60px;
+            color: white;
+        }
+
+        input[type="number"] {
+            text-align: center;
+            align-items: center;
+            margin-right: 50px;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Temperature Converter!</h2>
+    <p>Enter the value in any unit to automatically convert it to the other two units</p>
+    <p>
+        <label>Fahrenheit</label>
+        <input type="number" id="fahrenheit">
+    </p>
+    <p>
+        <label>Celsius</label>
+        <input type="number" id="celsius">
+    </p>
+    <p>
+        <label>Kelvin</label>
+        <input type="number" id="kelvin">
+    </p>
+    <!-- made three input boxes that give output when the other boxes are changed -->
+
+    <script>
+        var celsius = document.getElementById('celsius');
+        var fahrenheit = document.getElementById('fahrenheit');
+        var kelvin = document.getElementById('kelvin');
+        celsius.oninput = function () {
+            var f = (parseFloat(celsius.value) * 9) / 5 + 32;
+            fahrenheit.value = parseFloat(f.toFixed(2));
+
+            var k = (parseFloat(celsius.value) + 273.15);
+            kelvin.value = parseFloat(k.toFixed(2));
+        }
+        fahrenheit.oninput = function () {
+            var c = ((parseFloat(fahrenheit.value) - 32) * 5) / 9;
+            celsius.value = parseFloat(c.toFixed(2));
+
+            var k = (parseFloat(fahrenheit.value) - 32) * 5 / 9 + 273.15;
+            kelvin.value = parseFloat(k.toFixed(2));
+        }
+        kelvin.oninput = function () {
+            var f = (parseFloat(kelvin.value) - 273.15) * 9 / 5 + 32;
+            fahrenheit.value = parseFloat(f.toFixed(2));
+
+            var c = (parseFloat(kelvin.value) - 273.15);
+            celsius.value = parseFloat(c.toFixed(2));
+        }
+        // defining the variables and then suitably applying the formulae to get the results rounded to 2 decimal places
+    </script>
+</body>
+</html>
