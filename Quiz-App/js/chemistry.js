@@ -307,14 +307,14 @@ function res () {
     else incorrect++;
   }
   if (marks <= 4) {
-    document.getElementById("result").style.backgroundColor = "red";
+    document.getElementById("result").style.color = "red";
     document.getElementById("your-result").innerHTML = "Your Result:";
     document.getElementById(
       "detailed-result"
     ).innerHTML = `Marks = ${marks} Correct = ${marks} Incorrect = ${incorrect} Not-attempted =${notattempted}`;
   }
   if (marks >= 5 && marks <= 7) {
-      document.getElementById("result").style.backgroundColor = "yellow";
+      document.getElementById("result").style.color = "yellow";
       document.getElementById("your-result").innerHTML = "Your Result:";
       document.getElementById(
         "detailed-result"
@@ -322,7 +322,7 @@ function res () {
     }
 
     if (marks >= 8) {
-        document.getElementById("result").style.backgroundColor = "green";
+        document.getElementById("result").style.color = "green";
         document.getElementById("your-result").innerHTML = "Your Result:";
         document.getElementById(
           "detailed-result"
