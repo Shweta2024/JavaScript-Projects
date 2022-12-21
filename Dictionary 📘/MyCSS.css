@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body{
   display: flex;
   align-items: center;
@@ -11,10 +12,12 @@ body{
   min-height: 105vh;
   background: linear-gradient(90deg, rgb(22, 255, 19) 0%, rgb(255, 255, 255) 25%, rgb(255, 100, 3) 100%);
 }
+
 ::selection{
   color: rgb(12, 12, 12);
   background: #737beb;
 }
+
 .stylish{
   width: 500px;
   border-radius: 10px;
@@ -22,15 +25,18 @@ body{
   padding: 25px 28px 28px;
   box-shadow: 7px 7px 20px rgba(199, 51, 51, 0.05);
 }
+
 .stylish header{
   font-size: 28px;
   font-weight: 500;
   text-align: center;
 }
+
 .stylish .search{
   position: relative;
   margin: 25px 0 18px;
 }
+
 .search input{
   height: 50px;
   width: 100%;
@@ -40,47 +46,58 @@ body{
   padding: 0 52px;
   border: 5px solid rgb(0, 0, 0);
 }
+
 .search input:focus{
   padding: 0 20px;
   border: 2px solid #4D59FB;
 }
+
 .search input::placeholder{
   color: #B8B8B8;
 }
+
 .search :where(i, span){
   position: absolute;
   top: 50%;
   color: #999;
   transform: translateY(-50%);
 }
+
 .search i{
   left: 18px;
   pointer-events: none;
   font-size: 16px;
 }
+
 .search input:focus ~ i{
   color: #4D59FB;
 }
+
 .search span{
   right: 15px;
   cursor: pointer;
   font-size: 18px;
   display: none;
 }
+
 .search input:valid ~ span{
   display: block;
 }
+
 .stylish .info-text{
   font-size: 13px;
   color: #9A9A9A;
   margin: -3px 0 -10px;
 }
+
 .stylish.active .info-text{
   display: none;
 }
+
 .info-text span{
   font-weight: 500;
 }
+
 .stylish ul{
   height: 0;
   opacity: 0;
@@ -88,10 +105,12 @@ body{
   overflow-y: hidden;
   transition: all 0.2s ease;
 }
+
 .stylish.active ul{
   opacity: 1;
   height: 150px;
 }
+
 .stylish ul li{
   display: flex;
   list-style: none;
@@ -101,48 +120,59 @@ body{
   border-bottom: 1px solid #D9D9D9;
   justify-content: space-between;
 }
+
 ul li:last-child{
   margin-bottom: 0;
   border-bottom: 0;
   padding-bottom: 0;
 }
+
 ul .word p{
   font-size: 22px;
   font-weight: 500;
 }
+
 ul .word span{
   font-size: 12px;
   color: #989898;
 }
+
 ul .word i{
   color: #999;
   font-size: 15px;
   cursor: pointer;
 }
+
 ul .input{
   max-height: 215px;
   overflow-y: auto;
 }
+
 ul .input::-webkit-scrollbar{
   width: 0px;
 }
+
 .input li .details{
   padding-left: 10px;
   border-radius: 4px 0 0 4px;
   border-left: 3px solid #000000;
 }
+
 .input li p{
   font-size: 17px;
   font-weight: 500;
 }
+
 .input li span{
   font-size: 15px;
   color: #7E7E7E;
 }
+
 .input .synonyms .list{
   display: flex;
   flex-wrap: wrap;
 }
+
 .input .synonyms span{
   cursor: pointer;
   margin-right: 5px;

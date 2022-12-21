@@ -8,7 +8,7 @@ let audio;
 
 function data(result, word){
     if(result.title){
-        infoText.innerHTML = `Can't find the meaning of <span>"${word}"</span>. Please, try to search for another word.`;
+        infoText.innerHTML = `Can't find the meaning of <span>"${word}"</span>. Try Again woth a diffrent word !`;
     }else{
         stylish.classList.add("active");
         let definitions = result[0].meanings[0].definitions[0],
@@ -69,5 +69,5 @@ removeIcon.addEventListener("click", ()=>{
     searchInput.focus();
     stylish.classList.remove("active");
     infoText.style.color = "#9A9A9A";
-    infoText.innerHTML = "Type any existing word and press enter to get meaning, example, synonyms, etc.";
+    infoText.innerHTML = "Type any word and press enter to get it's meaning";
 });
