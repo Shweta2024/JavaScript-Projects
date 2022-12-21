@@ -11,6 +11,7 @@ body{
   justify-content: center;
   min-height: 105vh;
   background: linear-gradient(90deg, rgb(22, 255, 19) 0%, rgb(255, 255, 255) 25%, rgb(255, 100, 3) 100%);
+  /* Background color of the page  */
 }
 
 ::selection{
@@ -86,6 +87,7 @@ body{
   display: block;
 }
 
+/* text info given at the bottom  */
 .stylish .info-text{
   font-size: 16px;
   color: #fff9f9;
@@ -164,6 +166,7 @@ ul .input::-webkit-scrollbar{
   font-size: 17px;
   font-weight: 500;
 }
+
 
 .input li span{
   font-size: 18px;
