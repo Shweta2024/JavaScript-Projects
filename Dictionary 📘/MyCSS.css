@@ -4,7 +4,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/* Background properties  */
 body{
   display: flex;
   align-items: center;
@@ -17,7 +17,7 @@ body{
   color: rgb(12, 12, 12);
   background: #737beb;
 }
-
+/* Box properties  */
 .stylish{
   width: 500px;
   border-radius: 10px;
@@ -37,6 +37,7 @@ body{
   margin: 25px 0 18px;
 }
 
+/* Search box properties  */
 .search input{
   height: 50px;
   width: 100%;
@@ -166,15 +167,4 @@ ul .input::-webkit-scrollbar{
 .input li span{
   font-size: 15px;
   color: #7E7E7E;
-}
-
-.input .synonyms .list{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.input .synonyms span{
-  cursor: pointer;
-  margin-right: 5px;
-  text-decoration: underline;
 }
