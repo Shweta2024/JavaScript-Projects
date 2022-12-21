@@ -8,7 +8,7 @@ let audio;
 
 function data(result, word){
     if(result.title){
-        infoText.innerHTML = `Can't find the meaning of <span>"${word}"</span>. Try Again woth a diffrent word !`;
+        infoText.innerHTML = `Can't find the meaning of <span>"${word}"</span>. Check it's spelling or try another word !`;
     }else{
         stylish.classList.add("active");
         let definitions = result[0].meanings[0].definitions[0],

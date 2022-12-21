@@ -15,15 +15,15 @@ body{
 
 ::selection{
   color: rgb(12, 12, 12);
-  background: #737beb;
+  background: #e3e3e3;
 }
 /* Box properties  */
 .stylish{
   width: 500px;
   border-radius: 10px;
-  background: rgba(242, 240, 240, 0.633);
+  background: rgba(69, 109, 239, 0.633);
   padding: 25px 28px 28px;
-  box-shadow: 8px 8px 20px rgba(17, 78, 143, 0.801);  
+  box-shadow: 8px 8px 20px rgba(59, 61, 61, 0.801);  
   /* Shadow around the box */
 }
 
@@ -88,7 +88,7 @@ body{
 
 .stylish .info-text{
   font-size: 13px;
-  color: #9A9A9A;
+  color: #fff9f9;
   margin: -3px 0 -10px;
 }
 
@@ -136,11 +136,11 @@ ul .word p{
 
 ul .word span{
   font-size: 12px;
-  color: #989898;
+  color: #ffffff;
 }
 
 ul .word i{
-  color: #999;
+  color: rgb(255, 255, 255);
   font-size: 15px;
   cursor: pointer;
 }
@@ -167,5 +167,5 @@ ul .input::-webkit-scrollbar{
 
 .input li span{
   font-size: 15px;
-  color: #7E7E7E;
+  color: #ffffff;
 }
