@@ -1,6 +1,6 @@
 # Dictionary #65
 ## Related Issue 
-Resolved issue [Dictionary #65](https://github.com/Shweta2024/JavaScript-Projects/issues/65)
+Resolved issue [Dictionary #65 📘](https://github.com/Shweta2024/JavaScript-Projects/issues/65)
 ## Objective:
 Make a dictionary app, such that it can take a word as input and give its meaning as output.
 ## Tech Stack Used
@@ -13,3 +13,9 @@ Created a Beautiful Dictionary which takes words as an input and gives their mea
 
 If a user enters a non-existent word it gives a prompt to recheck the spelling
 ## Video 📽️ samples with all this in  action :
+
+
+
+
+https://user-images.githubusercontent.com/118007944/208868654-7b177a37-e1c7-4c15-a090-ad5c1f516643.mp4
+
