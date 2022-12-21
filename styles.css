@@ -1,0 +1,52 @@
+body {
+    /* background-color: black; */    
+        background-image: linear-gradient(to right, #3f5efb, #fc466b);
+      
+}
+.parent {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+#heading {
+    /* color: aquamarine;
+    margin-top: 8%;
+    font-size: 80px; */
+    margin: 30px;
+    font-family: "Lobster", cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 8rem;
+    color: #4ecccc;
+}
+
+.left {
+    text-align: center;
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.right {
+    text-align: center;
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.player {
+    /* color: aquamarine; */
+    font-size: 2rem;
+  color: white;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+}
+img {
+    width: 80%;
+  }
+
+footer a {
+    color: azure;
+    /* position: absolute; */
+    bottom: 5%;
+    left: 46%;
+    text-decoration: none;
+    padding-left: 50px;
+}
