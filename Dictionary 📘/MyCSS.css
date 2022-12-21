@@ -22,7 +22,7 @@ body{
   width: 500px;
   border-radius: 10px;
   background: rgba(69, 109, 239, 0.633);
-  padding: 25px 28px 28px;
+  padding: 25px 28px 30px;
   box-shadow: 8px 8px 20px rgba(59, 61, 61, 0.801);  
   /* Shadow around the box */
 }
@@ -87,7 +87,7 @@ body{
 }
 
 .stylish .info-text{
-  font-size: 13px;
+  font-size: 16px;
   color: #fff9f9;
   margin: -3px 0 -10px;
 }
@@ -110,7 +110,7 @@ body{
 
 .stylish.active ul{
   opacity: 1;
-  height: 150px;
+  height: 200px;
 }
 
 .stylish ul li{
@@ -166,6 +166,6 @@ ul .input::-webkit-scrollbar{
 }
 
 .input li span{
-  font-size: 15px;
+  font-size: 18px;
   color: #ffffff;
 }
