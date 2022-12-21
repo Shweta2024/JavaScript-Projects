@@ -23,7 +23,8 @@ body{
   border-radius: 10px;
   background: rgba(242, 240, 240, 0.633);
   padding: 25px 28px 28px;
-  box-shadow: 7px 7px 20px rgba(199, 51, 51, 0.05);
+  box-shadow: 8px 8px 20px rgba(17, 78, 143, 0.801);  
+  /* Shadow around the box */
 }
 
 .stylish header{
