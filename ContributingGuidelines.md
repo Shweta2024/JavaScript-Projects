@@ -1,11 +1,22 @@
+<div align="center">
+    <img width="400" src="https://user-images.githubusercontent.com/94545831/208895341-f67f7edb-7f48-477f-afdb-9a506cbbd669.png" />
+</div>
+
+<p align="center"> <b>  DON'T BE AFRAID 😁 RELAX ! YOU GOT IT </b></p>
+
+<br>
+
+
 # CONTRIBUTING GUIDELINES
 
-- All contributions are valuable😄 Each contributor is allowed to work on **ONE ISSUE AT A TIME**.
+- **Guideline 1 :** All contributions are valuable😄 Each contributor is allowed to work on **ONE ISSUE AT A TIME**.
 
-- Add **Proper comments** in your code modules. It is done to ensure that if any other contributor make changes (improves) your project in future it would be 
-easier for him/her to do so.
+- **Guideline 2 :** Add **Proper comments** in your code modules. Give **proper and meaningful variable names**. It is done to ensure that if any other contributor make changes or improves your project in future it would be easier for him/her to do so.
 
-- Create a README.md file **inside your project** which elaborates your project well. It should contain **following points :**
+- **Guideline 3 :** Write **neat and clean code**.
+- **Guideline 4 :** Give a meaningful name to your Branch.
+
+- **Guideline 5 :** Create a README.md file **inside your project** which elaborates your project well. It should contain **following points :**
    - Objective of your project.
    - What task does it do? How did you implement that?
    - Your learnings from the project.
@@ -34,7 +45,7 @@ easier for him/her to do so.
 
 - The name of the branch should be the project name followed by issue number.(Example : Calculator20)
 
-- This will create a new branch with name Branch_Name and switch to that branch.👇
+- This will create a new branch with name Branch_Name and switch to that branch.
 
 - ```$ git checkout -b branch_name```
  
