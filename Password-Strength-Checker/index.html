@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Strength Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="div1">
+        <div class="div2">
+            <h1 class="heading">Want to know if your password <br/> is secure or not?</h1><!--Heading-->
+            <div class="div3"><!--Input box with the buttons  -->
+                <input type="text" name="" id="text" placeholder="Enter password"> 
+                <button id="check" onclick="checker()">Check</button>
+                <button id="generate" onclick="generate()">Generate</button>
+            </div>
+            <div class="div4"> <!-- div having all the information and the parameters of a secure password. -->
+                <li id="res"><span>&#9432</span>&nbsp; A secure password must have atleast one digit, one lower case
+                    character, one upper case character, one special character and should be
+                    atleast 8 characters long</li>
+                <li id="number">&nbsp;</li>
+                <li id="small">&nbsp;</li>
+                <li id="big">&nbsp;</li>
+                <li id="special">&nbsp;</li>
+                <li id="length">&nbsp;</li>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
