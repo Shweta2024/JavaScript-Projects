@@ -22,6 +22,12 @@ now:
 ![image](https://user-images.githubusercontent.com/98601458/208900143-a88dc5a1-7a4b-4cba-a4dd-9dae6146eaea.png)
 
 As it can be seen the contents are looking more aligned and appealing.
+Video:
 
 
+
+
+
+
+https://user-images.githubusercontent.com/98601458/209392012-095e5948-700a-47dc-b0cc-7294d895cbfa.mp4
 
