@@ -1,15 +1,32 @@
-A more responsive calculator. The keys dont go out of place even at mobile screen size
+##Objective of my project
+- I had to change the size of calculator container as the buttons were coming out.
 
-TECH-STACK: Html, Css, Javascript
+##What task does it do? How did I implement that?
+- I simply changed the height of calculator container to 68vh.
 
-LEARNINGS: learned to apply different concepts like classes, widths and display properties, application of javascript functions and to create and apply custom functions. Learned first time about Github and got familiar with its different features.
+##My learnings from the project
+- I learned few css concepts. As a beginner to open source, i also learned a lot about several git commands.
 
-Screenshots:
-Previous:
-![image](https://user-images.githubusercontent.com/117550570/208503702-a8401877-f47d-4e3d-a7ee-b8e091e641d2.png)
+##tech-stack
+- I used javascript,css and html.
 
-Now:
-![Screenshot 2022-12-19 224655](https://user-images.githubusercontent.com/117550570/208503451-22596661-9eeb-416c-87b4-cb4ed99ee746.png)
+##VIDEO 
+[calculatorvideo..webm](https://user-images.githubusercontent.com/99539203/208333600-67811805-079f-4c4b-983c-f92ed7c9d10e.webm)
 
 
-![Screenshot 2022-12-20 005448](https://user-images.githubusercontent.com/117550570/208504053-ce2e300d-9907-4145-a76b-c5b36e5a9305.png)
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/rhinoxD/JavaScript-Projects.git
+```
+
+Go to the project directory
+
+```bash
+  cd JavaScript-Projects/BMI-calculator
+```
+
+Open index.html
+
