@@ -21,6 +21,8 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
+    padding-bottom: 20px;
 }
 #rules li{
     font-size: 3rem;
@@ -29,26 +31,34 @@ body{
 }
 
 #start{
+    margin-top: 10px;
     height: 4rem;
     width: 15rem;
     border-radius: 20rem;
-    font-size: 3rem;
+    font-size: 2rem;
+    align-self: center;
+    text-align: center;
+  
+}
+#start :hover
+{
+    background-color: black;
 }
 /* heading rules and start button styles ends */
 
 /* timer quiz area styling begins */
 #timer{
     border: 4px solid whitesmoke;
-    font-size: 3rem;
+    font-size: 2rem;
     width: 40rem;
-    height: 3rem;
+   border-radius: 20px;
     text-align: center;
     margin: auto;
     background-color: white;
 }
 
 #quiz-display{
-    border: 4px solid white;
+ 
     width: 40rem;
     display: flex;
     flex-direction: column;
@@ -60,9 +70,12 @@ body{
 .question{
     border: 4px solid white;
     width: 40rem;
-    height: 15rem;
+    height: 5rem;
     background-color: white;
     font-size: 2rem;
+    text-align: center;
+  padding: 5px;
+  border-radius: 20px;
 }
 
 .options{
@@ -74,33 +87,38 @@ body{
 .btn-option{
    width: 40rem;
    height: 5rem;
+   border-radius: 20px;
 }
 
 #next-previous{
   display: flex;
   justify-content: center;
+ 
 }
     
 .pn{
     width: 10rem;
     height: 4rem;
     margin-top: 0.5rem;
+    border-radius: 20px;
 }
 
 #submit{
     width: 10rem;
     height: 4rem;
     margin-top: 0.5rem;
+    border-radius: 20px;
 }
 /* timer quiz area styling ends */
 
 /* result section styling begins */
 #result{
+    padding-top: 20px;
     width: 100%;
-    height: 30rem;
-    border: 2px solid white;
+    height: 10rem;
+  
     font-size: 3rem;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 #your-result{
