@@ -12,11 +12,12 @@ body{
 
 .container
 {
-  margin: auto;
-  margin-top: 5%;
-    width: 35%;
 
-    padding: 0.2%;
+
+    width: 23%;
+    height: 68vh;
+    padding: 10px;
+
     border-radius: 15px;
     box-shadow: 12px 12px 20px #cbced1,
                    -12px -12px 20px #ffff;
