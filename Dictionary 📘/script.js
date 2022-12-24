@@ -4,9 +4,6 @@ searchInput = stylish.querySelector("input"),
 volume = stylish.querySelector(".word i"),
 infoText = stylish.querySelector(".info-text"),
 removeIcon = stylish.querySelector(".search span");
-
-
-
 // Declaring the function for search 
 function data(result, word){
     if(result.title){
@@ -21,13 +18,11 @@ function data(result, word){
 
     }
 }
-
 // function for fetching the word using Dictionary APT
 function search(word){
     fetchApi(word);
     searchInput.value = word;
 }
-
 // Importing API 
 function fetchApi(word){
     stylish.classList.remove("active");
@@ -38,7 +33,6 @@ function fetchApi(word){
         infoText.innerHTML = `Can't find the meaning of <span>"${word}"</span>. Please, try to search for another word.`;
     });
 }
-
 // Storing the word fetched by fetchAPI 
 searchInput.addEventListener("keyup", e =>{
     let word = e.target.value.replace(/\s+/g, ' ');
@@ -46,7 +40,6 @@ searchInput.addEventListener("keyup", e =>{
         fetchApi(word);
     }
 });
-
 //To be Displayed in Search box 
 removeIcon.addEventListener("click", ()=>{
     searchInput.value = "";
