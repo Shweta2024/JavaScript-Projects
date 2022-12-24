@@ -14,9 +14,10 @@
 - **Guideline 2 :** Add **Proper comments** in your code modules. Give **proper and meaningful variable names**. It is done to ensure that if any other contributor make changes or improves your project in future it would be easier for him/her to do so.
 
 - **Guideline 3 :** Write **neat and clean code**.
-- **Guideline 4 :** Raise a PR from **different branch** and give a **meaningful name** to it.
+- **Guideline 4 :** It's necessary to include all the **3 files(HTML,CSS,JS)** in your project.
+- **Guideline 5 :** Raise a PR from **different branch** and give a **meaningful name** to it.
 
-- **Guideline 5 :** Create a README.md file **inside your project** which elaborates your project well. It should contain **following points :**
+- **Guideline 6 :** Create a README.md file **inside your project** which elaborates your project well. It should contain **following points :**
    - Objective of your project.
    - What task does it do? How did you implement that?
    - Your learnings from the project.
