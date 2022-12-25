@@ -1,0 +1,111 @@
+ *{
+    padding: 0;
+    margin: 0;
+    background-color:black;
+}
+
+html{
+    font-size: 10px;
+}
+/* header section begins */
+#header{
+    width: 100vw;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+#start{
+    width: 25rem;
+    height: 4rem;
+    border-radius: 10rem;
+    background-color: #3b3c36;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+}
+#current-song{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#current-song img{
+    width: 20rem;
+    height: 20rem;
+    margin:0rem 4rem;
+}
+
+#previous,#next{
+    border-style:none;
+}
+#current-song i{
+    font-size: 6rem;
+    color: white;
+}
+
+#song-detail{
+    display: flex;
+    flex-direction: column;
+}
+#details{
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+}
+
+/* header section end */
+#container
+{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+
+#canvas1{
+    width: 90rem;
+    height: 60rem;
+} 
+
+/* playlist section begins */
+
+#playlist-canvas{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1rem;
+}
+
+.about-song{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35rem;
+    height: 5rem;
+    font-size: 2rem;
+    color: white;
+}
+
+.about-song button{
+    border-style:none; 
+}
+.about-song img{
+    width: 4rem;
+    height: 4rem;
+}
+
+.about-song i{
+  font-size: 4rem;
+  color: white;
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 2rem;
+}

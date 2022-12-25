@@ -3,28 +3,29 @@
 body{
     padding: 0;
     margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
     min-height: 100vh;
     font-family: 'Montserrat', sans-serif;
     background:#ecf0f3 ;
+    text-align: center;
 }
 
 .container
 {
-    
+
+
     width: 23%;
-    height: 60vh;
+    height: 68vh;
     padding: 10px;
+
     border-radius: 15px;
     box-shadow: 12px 12px 20px #cbced1,
                    -12px -12px 20px #ffff;
- 
+
 }
 
 .display #screen{
-    width: 97%;
+    width: 90%;
     height: 75px;
     font-size: 35px;
     outline: none;
@@ -36,26 +37,23 @@ body{
     box-shadow: inset 8px 8px 8px #cbced1,
                      inset -8px -8px 8px #ffff ;
                      margin-top: 30px;
-                    
+
 }
 
 .btns{
     width: 100%;
     margin-top: 1.7rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+
 
 }
 
-.btns .row button{
-    width: 65px;
+.btn{
+    width: 20%;
     height: 50px;
-    font-size: 16px;
+    font-size: 100%;
     border: none;
     outline: none;
-    margin: 5px;
+    margin: 2% 1%;
     border-radius: 8px;
     box-shadow: 5px 5px 8px #00000020,
                -5px -5px 8px #ffffff;
@@ -74,8 +72,8 @@ body{
     color: #ffffff;
     box-shadow: inset 5px 5px 8px #66d9ff,
     inset -5px -5px 8px #00ace6;
-    
-    
+
+
 }
 
 #eval:hover{
@@ -86,7 +84,7 @@ body{
 #ac{
     background: #33cc33;
     color: #ffffff;
-    
+
 }
 
 #ac:hover{
@@ -97,7 +95,7 @@ body{
 #ce{
     background: #ff3399;
     color: #ffffff;
-   
+
 }
 
 #ce:hover{

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:1300px)" href="./style_1300px.css">
+    <script src="https://kit.fontawesome.com/639440d518.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="container">
+        <!-- Header section containing start song image and details begins  -->
+        <div id="header">
+            <button id="start">Start</button>
+            <div id="current-song">
+                <button id="previous"><i class="fa-solid fa-backward-step"></i></button>
+                <img src="./images/don't you worry child.jpg" alt="" id="song-image">
+                <button id="next"><i class="fa-solid fa-forward-step"></i></button>
+            </div>
+            <div id="song-detail">
+                <div id="details">Don't you worry child</div>
+                <audio id="myaudio" controls="true"></audio>
+            </div>
+        </div>
+        <!-- Header section containing start song image and details ends  -->
+         <!-- Playlist and canvas section begins -->
+        <div id="playlist-canvas">
+            <div id="playlist">
+                <!-- Playlist section begins -->
+                <h2>Playlist</h2>
+                <div class="about-song"><img src="./images/don't you worry child.jpg" alt="">Don't you worry child<button class="playlist-play"  id="0" state="paused"><i class="fa-solid fa-play"></i></button></div>
+                <div class="about-song"><img src="./images/i need your love.jpg" alt="">I need your love<button class="playlist-play"  id="1" state="paused"><i class="fa-solid fa-play"></i></button></div>
+                <div class="about-song"><img src="./images/vente paca.jpg" alt="">Vente Paca<button class="playlist-play"  id="2" state="paused"><i class="fa-solid fa-play"></i></button></div>
+                <div class="about-song"><img src=".//images/blame.jpg" alt="">Blame<button class="playlist-play"  id="3" state="paused"><i class="fa-solid fa-play"></i></button></div>
+                <div class="about-song"><img src="./images/wavin flag.jpg" alt="">Wavin Flag<button class="playlist-play"  id="4" state="paused"><i class="fa-solid fa-play"></i></button></div>
+                <div class="about-song"><img src="./images/dekha hazaro dafa.jpg" alt="">Dekha Hazaro Dafa<button class="playlist-play"  id="5" state="paused"><i class="fa-solid fa-play"></i></button></div>
+                <div class="about-song"><img src="./images/bapu zimedar.jpg" alt="">Bapu Zimmedar<button class="playlist-play"  id="6" state="paused"><i class="fa-solid fa-play"></i></button></div>
+                <div class="about-song"><img src="./images/kahani.jpg" alt="">Kahaniyan<button class="playlist-play"  id="7" state="paused"><i class="fa-solid fa-play"></i></button></div>
+                <div class="about-song"><img src="./images/mitwa.jpg" alt="">Mitwa<button class="playlist-play"  id="8" state="paused"><i class="fa-solid fa-play"></i></button></div>
+                <div class="about-song" ><img src="./images/tere naina.jpg" alt="">Tere Naina<button class="playlist-play" id="9" state="paused"><i class="fa-solid fa-play"></i></button></div>
+                </div>
+                <!-- Playlist section ends -->
+                <canvas id="canvas1"></canvas>
+        </div>
+        <!-- Playlist and canvas section ends -->
+    </div> 
+    <script src="./app.js"></script>
+</body>
+</html>
