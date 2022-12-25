@@ -1,19 +1,21 @@
-let turn="X";
+let turn="❌";
 let boxes=document.getElementsByClassName("box");
 let k=0;
 let fill=0;
 document.getElementById("player-turn").innerText=`Player X turn`
+const nought = "⭕";
+const cross = "❌";
 function changeturn(){
-    if(turn==="X")
-    return "0"
+    if(turn==="❌")
+    return "⭕"
     else
-    return "X"
+    return "❌"
 }
 
 // Function to check whether text filled is X,0 or something else
 function checkText(e)
 {
- if(e.innerText==="0"||e.innerText==="X")
+ if(e.innerText==="⭕"||e.innerText==="❌")
  return true;
  else
  return false;
@@ -54,7 +56,7 @@ function checkText(e)
        if(element.innerText==="")
        element.innerText=turn
        fill++
-       check_for_win()  
+       check_for_win()
        if(k==1)
        {
               Array.from(boxes).forEach(e=>{
@@ -70,7 +72,7 @@ function checkText(e)
        })
        }
        else
-       {  
+       {
            turn=changeturn()
            document.getElementById("player-turn").innerText=`Player ${turn} turn`
        }
@@ -85,7 +87,7 @@ function checkText(e)
         e.innerText=""
         e.backgroundcolor="white"
  })
- turn="X"
+ turn="❌"
  k=0;
  fill=0;
  document.getElementById("player-turn").innerText=`Player ${turn} turn`
