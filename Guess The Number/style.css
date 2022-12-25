@@ -5,7 +5,7 @@
 }
 body {
   height: 100vh;
-  background: linear-gradient(to right, #7f53ac, #657ced);
+  background: linear-gradient(to right, #663399, #ed6593);
 }
 .container {
   position: absolute;
@@ -40,7 +40,7 @@ button {
   width: 160px;
   padding: 15px 0;
   border-radius: 5px;
-  background-color: #663399;
+  background-color: #419933;
   color: #fff;
   border: none;
   font-size: 18px;
