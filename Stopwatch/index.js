@@ -3,6 +3,7 @@ var start_btn = document.getElementById("start");
 var stop_btn = document.getElementById("stop");
 var restart_btn = document.getElementById("restart");
 
+
 let seconds = 0;
 let interval = null;
 
