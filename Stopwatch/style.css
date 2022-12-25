@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image: linear-gradient(to right, #434343, #000000);
+}
+
+.heading{
+    font-size: 32px;
+    font-weight: bold;
+    color: lightblue;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.watch{
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 40px;
+    font-weight: medium;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    cursor: pointer;
+    width: 100px;
+    margin: 12px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+}
