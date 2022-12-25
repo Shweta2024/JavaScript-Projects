@@ -1,0 +1,8 @@
+/* css file for screen width less than or equal to 1300px */
+html{
+    font-size: 6px;
+}
+
+#myaudio{
+    width: 25rem;
+}
