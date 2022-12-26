@@ -2,9 +2,9 @@ var msg1 = document.getElementById("message1");
 var msg2 = document.getElementById("message2");
 var msg3 = document.getElementById("message3");
 var msg4 = document.getElementById("mess_level");
-var answer = Math.floor(Math.random() * 100) + 1;
-var no_of_guesses = 0;
-var guesses_num = [];
+var answer = Math.floor(Math.random() * 100) + 1;  // Gets a random number which the user have to guess.
+var no_of_guesses = 0; // variable which measure the number of times user has guessed.
+var guesses_num = []; // array of numbers which the user has guessed.
 // Function execution on button submission
 function play() {
   var level_guess = document.getElementById("lvl_guess").value;
