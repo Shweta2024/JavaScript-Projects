@@ -21,3 +21,10 @@ Guess the number is a fun game that is about guessing a random number in a certa
 <figure><img src="images/Screenshot (386).png" alt=""><figcaption><p>The Game in loss state.</p></figcaption></figure>
 
 <figure><img src="images/Screenshot (387).png" alt=""><figcaption><p>The Game in win state.</p></figcaption></figure>
+
+### Videos
+
+[LOST THE GAME.webm](https://user-images.githubusercontent.com/92142824/209514934-e92b72f1-0473-463d-927f-bad500e76f5c.webm)
+
+[WIN THE GAME.webm](https://user-images.githubusercontent.com/92142824/209514969-58deac0a-9e11-46ee-9926-7f4b2d85b496.webm)
+
