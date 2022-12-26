@@ -1,5 +1,6 @@
-# JS-Clock
-It's a CSS Clock which takes in the current time using JavaScript and upadtes the clock hands based on the current hour, minute and second.
+# Grocery List
+Hungry? Let's use our grocery list to go supermarket shopping. You may keep a list of the things you need to buy using this wonderful software, you only need to add the items here. Additionally, you have the option of removing any unnecessary things.
+
 
 
 ##  Project Video 
