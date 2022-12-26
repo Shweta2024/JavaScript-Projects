@@ -55,3 +55,15 @@ button{
     border-radius: 10px;
     color:white;
 }
+
+.bottom-container {
+  background-color: #66BFBF;
+padding: 50px 613px 50px 613px;
+margin-bottom: -13rem;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
