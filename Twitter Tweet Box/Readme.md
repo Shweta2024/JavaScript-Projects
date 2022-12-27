@@ -1,4 +1,4 @@
-# Twitter Tweet Box ✨ #67
+# Twitter Tweet Box 
 ## Related Issue 
 Resolved issue [Twitter Tweet box #67](https://github.com/Shweta2024/JavaScript-Projects/issues/67)
 ## Objective:
