@@ -15,6 +15,10 @@
 
 <br>
 
+![Github Repo Size](https://img.shields.io/github/repo-size/Shweta2024/JavaScript-Projects?style=for-the-badge&color=green)
+
+<br>
+
 
 
 ## Maintainers
