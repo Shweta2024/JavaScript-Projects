@@ -73,3 +73,5 @@
 - Go to your repository in browser and click on compare and pull requests. 
 
 - Then add a title and description to your pull request that explains your contribution. Make them **meaningful** so that we can understand them better.
+
+- After your PR gets merged, **Delete the branch** in which you raise the PR as a good practice 😎
