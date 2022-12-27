@@ -1,0 +1,33 @@
+/* css file to make the timer look a bit better than a base one!
+used black background and white text to implement a sort of dark mode
+set the font size and margin to make it a bit appealing and used center alignment for all text */
+body {
+  background-color: black;
+}
+
+h2 {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 60px;
+  margin-top: 0px;
+  color: white;
+}
+
+p {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 90px;
+  color: white;
+}
+
+input[type="text"] {
+  text-align: center;
+  align-items: center;
+  margin-left: 50px;
+  padding: 10px;
+}
+
+input[type="button"] {
+  margin-top: 100px;
+  margin-left: 600px;
+}

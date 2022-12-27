@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* css for styling and enabling dark background */
+        body {
+            background-color: black;
+        }
+
+        h2 {
+            text-align: center;
+            font-weight: lighter;
+            font-size: 60px;
+            margin-top: 0px;
+            color: white;
+        }
+
+        p {
+            text-align: center;
+            font-size: 30px;
+            margin-top: 60px;
+            color: white;
+        }
+
+        input[type="number"] {
+            text-align: center;
+            align-items: center;
+            margin-right: 50px;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Mass Converter!</h2>
+    <p>Enter the value in any unit to automatically convert it to the other units</p>
+    <br>
+    <p>
+        <label>Pounds</label>
+        <input type="number" id="Pounds">
+        <label>Kilograms</label>
+        <input type="number" id="Kilograms">
+    </p>
+    <br>
+    <p>
+        <label>Ounces</label>
+        <input type="number" id="Ounces">
+        <label>Grams</label>
+        <input type="number" id="Grams">
+    </p>
+    
+    <!-- made four input boxes that give output when the other boxes are changed -->
+
+    <script>
+        // javascript part
+        var Kilograms = document.getElementById('Kilograms');
+        var Pounds = document.getElementById('Pounds');
+        var Ounces = document.getElementById('Ounces');
+        var Grams = document.getElementById('Grams');
+        // defined 4 variables to take input from the boxes
+
+        // defining the variables and then suitably applying the formulae to get the results rounded to 4 decimal places
+        Kilograms.oninput = function () {
+            var p = (parseFloat(Kilograms.value)*2.2046);
+            Pounds.value = parseFloat(p.toFixed(4));
+
+            var o = (parseFloat(Kilograms.value)*35.274);
+            Ounces.value = parseFloat(o.toFixed(4));
+
+            var g = (parseFloat(Kilograms.value)*1000);
+            Grams.value = parseFloat(g.toFixed(4));
+        }
+        // when the kg box gets input, use the formulas to change the value of the other boxes
+        Pounds.oninput = function () {
+            var g = (parseFloat(Pounds.value)/0.0022046);
+            Grams.value = parseFloat(g.toFixed(4));
+
+            var o = (parseFloat(Pounds.value)*16);
+            Ounces.value = parseFloat(o.toFixed(4));
+
+            var k = (parseFloat(Pounds.value)/2.2046);
+            Kilograms.value = parseFloat(k.toFixed(4));
+        }
+        // when the lb box gets input, use the formulas to change the value of the other boxes
+        Ounces.oninput = function () {
+            var g = (parseFloat(Ounces.value)/0.035274);
+            Grams.value = parseFloat(g.toFixed(4));
+
+            var k = (parseFloat(Ounces.value)/35.274);
+            Kilograms.value = parseFloat(k.toFixed(4));
+
+            var p = (parseFloat(Ounces.value)*0.0625);
+            Pounds.value = parseFloat(p.toFixed(4));
+        }
+        // when the oz box gets input, use the formulas to change the value of the other boxes
+        Grams.oninput = function () {
+            var k = (parseFloat(Grams.value)/1000);
+            Kilograms.value = parseFloat(k.toFixed(4));
+
+            var p = (parseFloat(Grams.value)*0.0022046);
+            Pounds.value = parseFloat(p.toFixed(4));
+
+            var o = (parseFloat(Grams.value)*0.035274);
+            Ounces.value = parseFloat(o.toFixed(4));
+        }
+        // when the g box gets input, use the formulas to change the value of the other boxes
+    </script>
+</body>
+</html>
