@@ -11,7 +11,7 @@
    - Creating a new issue on your own of new JavaScript projects.
    
 - Join our [Discord Channel](http://discord.openinapp.co/discord-1-10390)
-- Check [Contributing Guidelines](https://github.com/Shweta2024/JavaScript-Projects/blob/master/ContributingGuidelines.md) here.
+- Check [Contributing Guidelines](https://github.com/Shweta2024/JavaScript-Projects/blob/master/Guidelines.md) here.
 
 <br>
 
