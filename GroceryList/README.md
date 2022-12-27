@@ -10,4 +10,11 @@ Click the link to watch the demo of the live-clock project.
 [Live Video Link](/Grocery_List_Project_demo.mp4)
 
 
+### Tech Sack
+HTML 
+CSS
+JavaScript
+
+
+
 
