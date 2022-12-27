@@ -16,8 +16,9 @@
 - **Guideline 3 :** Write **neat and clean code**.
 - **Guideline 4 :** It's necessary to include all the **3 files(HTML,CSS,JS)** in your project.
 - **Guideline 5 :** Raise a PR from **different branch** and give a **meaningful name** to it.
+- **Guideline 6 :** Add your project to the appropriate folder according to the first letter of its name.
 
-- **Guideline 6 :** Create a README.md file **inside your project** which elaborates your project well. It should contain **following points :**
+- **Guideline 7:** Create a README.md file **inside your project** which elaborates your project well. It should contain **following points :**
    - Objective of your project.
    - What task does it do? How did you implement that?
    - Your learnings from the project.
