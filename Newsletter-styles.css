@@ -1,0 +1,286 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{/*background color of body*/
+    background-color: rgb(203, 203, 203);
+}
+
+main{
+    background-color: aliceblue;
+    width: 100%;
+    box-shadow: 2px 4px 5px grey; /*shadow of main box in body*/
+}
+
+.nav-options{ /*these are the navigation options which will take you to news, business news, lifestyle, etc.*/
+    display: flex;
+    flex-wrap: wrap-reverse;/*these options are arranged in horizontal flex-box where each element separated evenly*/
+    width: 30vw;
+    height: 10vh;
+    justify-content: space-evenly;
+    border: none;  
+    background-color: rgb(4, 216, 216);
+    border-radius: 50px;
+    position: fixed;
+    z-index: +5; /*z-index of this tab is increased so that it can float with page by fixing its position at a place*/
+    margin: 87vh auto auto 35vw;
+
+}
+
+.nav-options button{ /* styles added to each button of navigation tab*/
+    border: none;
+    border-radius: 50px;
+    width: 4.5vw;
+    height: 4vh;
+    margin: 3vh auto 3vh auto;
+    background-color: rgb(4, 216, 216);
+    font-size: 2.3vh;
+    color: aliceblue;
+    box-shadow: 3px 4px 5px rgb(0, 85, 255);
+}
+
+.nav-options button:hover{ /*hovering effect is also added in each button*/
+    box-shadow: 3px 4px 7px black;
+}
+
+header{ /*this is header section containing site logo, name and search bar*/
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    background-color: rgb(4, 216, 216);
+    box-shadow: 2px 4px 5px gray;
+}
+
+.logo{ /*div box containing logo and name of site*/
+    display: flex;
+    flex-wrap: wrap-reverse;
+    margin: 3vh auto auto 3vh;
+}
+
+.logo img{ /*logo of site*/
+    width: 20vh;
+    height: 20vh;
+    border: none;
+    border-radius: 50px;
+}
+
+.logo h1{ /*name of site*/
+    margin: 2vh auto auto 2vh;
+    font-size: 6vh;
+    font-family: 'Carter One', cursive;
+    font-weight: 100;
+    text-shadow: 1px 2px 3px black;
+}
+
+.search-bar{ /*search bar*/
+    margin: 7vh 10vw auto auto;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    border: none;
+    background-color: aliceblue;
+    border-radius: 50px;
+    box-shadow: 1px 2px 6px rgb(106, 106, 106);
+}
+
+.search-bar:hover{ /*hovering effect of search bar*/
+    box-shadow: 1px 2px 4px rgb(255, 255, 255);
+}
+
+.search-bar input{
+    width: 25vw;
+    height: 4vh;
+    border: none;
+    /* margin: auto auto auto 2vh; */
+    border: none;
+    font-size: 2.5vh;
+    border-radius: 50px;
+    padding-left: 3vh;
+}
+
+
+
+.search-bar img{ /*magnifying glass image at search bar*/
+    width: 4vh;
+    height: 4vh;
+    border: none;
+    border-radius: 50px;
+}
+
+.new-page h1{ /*news page heading : top news*/
+    margin: 2vh auto auto 10vh;
+    font-size: 5vh;
+    border-top: 3px solid black;
+    width: 10.5vw;
+}
+
+.all-news{ /*few news tab arranged in one row as a flex box evenly separated*/
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+    margin: 7vh 8vw 10vh 8vw;
+}
+
+.news{ /*all news boxes*/
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.news a{ /*news links*/
+    text-decoration: none; /*by text-decoration removed the blue line from beneath the text*/
+    background-image: linear-gradient(to right, rgba(0, 255, 255, 0.75), rgb(79, 217, 217, 0.75), rgb(144, 209, 209, 0.75), rgb(203, 217, 217, 0.75));
+    border: none; /*gradient color background*/
+    border-radius: 10px;
+}
+
+.news a:hover{ /*hovering effect in news links or boxes*/
+    text-decoration: underline;
+    color: aliceblue;
+    background-image: linear-gradient(to right, rgba(57, 56, 56, 0.77), rgba(131, 130, 130, 0.77), rgba(176, 173, 173, 0.77), rgba(240, 238, 238, 0.77));
+    box-shadow: 2px 3px 5px black;
+}
+
+.news img{ /*image in all news boxes*/
+    width: 25vw;
+    height: 30vh;
+    border: none;
+    border-radius: 10px;
+}
+
+.news h3{
+    width: 25vw;
+    height: 30vh;
+    position: sticky;
+    z-index: +2;
+    color: aliceblue;
+    text-shadow: 1px 2px 4px black;
+    text-overflow: ellipsis;
+}
+
+.subscribe{ /*subscription box*/
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    margin-bottom: 15vh;
+}
+
+.subscribe h2{ /*heading for subscription form*/
+    font-weight: 200;
+    font-size: 4.5vh;
+}
+
+.subscribe p{
+    font-size: 3vh;
+    margin: 2vh auto 2vh auto;
+}
+
+.subscribe form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    width: 30vw;
+    height: 35vh;
+    margin: 4vh auto 3vh auto;
+    box-shadow: 1px 2px 4px black;
+    background-color: rgb(42, 178, 246);
+}
+
+.subscribe form input{
+    width: 25vw;
+    height: 5vh;
+    font-size: 2.5vh;
+    margin: 3vh auto 2vh auto;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 1px 2px 4px black;
+    padding-left: 5vh;
+}
+
+.subscribe form input:focus{ /*inputs of form will give different background on activating by click*/
+    background-color: rgb(162, 232, 244);
+    box-shadow: 2px 4px 6px black;
+}
+
+.subscribe form input:hover{ /*hovering effect of inputs in form*/
+    background-color: rgb(162, 232, 244);
+    box-shadow: 2px 4px 6px black;
+}
+
+.subscribe form button{ /*subscribe button styles*/
+    border: none;
+    width: 8vw;
+    height: 4vh;
+    box-shadow: 1px 2px 4px black;
+    border-radius: 50px;
+    background-color: rgb(4, 216, 216);
+    margin: 3vh auto 2vh auto;
+    font-size: 2.5vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.subscribe form button:hover{ /*subscribe button hovering effect*/
+    width: 8.5vw;
+    height: 4.5vh;
+    font-size: 3vh;
+    box-shadow: 3px 4px 6px black;
+}
+
+footer{ /*footer section*/
+    background-color: rgb(4, 216, 216);
+    box-shadow: 2px -3px 6px grey;
+}
+
+.nav-info{ /*navigation information at footer section*/
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+}
+
+.logo-2{ /*site logo*/
+    margin: 2vh auto 5vh auto;
+}
+
+.logo-2 img{
+    width: 16vh;
+    height: 16vh;
+}
+
+.footer-nav{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    margin: auto 5vw 10vh 5vw;
+}
+
+.footer-nav-tabs h3{ /*navigation headings at footer*/
+    font-size: 3vh;
+    color: aliceblue;
+    margin: 1vh auto 2vh auto;
+    text-shadow: 2px 2px 3px rgb(29, 51, 51);
+}
+
+
+
+.social-icons img{ /*social media links*/
+    width: 5vh;
+    height: 5vh;
+    border: none;
+    background-color: aliceblue;
+    border-radius: 50%;
+    margin: 2vh 1vh auto 1vh;
+    box-shadow: 1px 2px 4px black;
+}
+
+.social-icons img:hover{ /*social media hovering effect*/
+    box-shadow: 3px 4px 6px black;
+}
+
+.copyright{ /*copyright statement styles*/
+    font-size: 2.5vh;
+    color: aliceblue;
+    margin-left: 42vw;
+}
