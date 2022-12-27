@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- refering to the css file that improves readability -->
+    <link rel="stylesheet" href="style.css">
+    <!-- refering to the js file that does the calculation -->
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+    <h2>Countdown Timer!</h2>
+    <p>Enter the end date and time in the respective boxes in DD|MM|YYYY and HH:MM format!<br>
+    (if time boxes are left blank, time is taken to be 00:00 on that day)</p>
+    <!-- displaying heading and instructions, then giving placeholders to input the data -->
+    <input type="text" id="day" placeholder="Day">
+    <input type="text" id="month" placeholder="Month">
+    <input type="text" id="year" placeholder="Year">
+    <input type="text" id="hour" placeholder="Hour">
+    <input type="text" id="min" placeholder="Min"><br>
+    <!-- submit button to let the date be processed and the final output paragraph -->
+    <input type="button" value="Submit" onclick="settimer();">
+    <p id="timer_value"></p>
+</body>
+</html>
