@@ -5,18 +5,17 @@ const addBtn = document.querySelector("#addBtn");
 const main = document.querySelector("#main");
 
 
-// When user clicks on add button it creates a Note 
 addBtn.addEventListener(
     "click",
-function() {
-    addNote()
-}
+    function () {
+        addNote()
+    }
 )
 
 
 // Function to save Notes written by user 
-const saveNotes = () =>{
-    const notes =document.querySelectorAll(".note textarea");
+const saveNotes = () => {
+    const notes = document.querySelectorAll(".note textarea");
     console.log(notes);
     const data = [];
     notes.forEach(
@@ -25,11 +24,11 @@ const saveNotes = () =>{
         }
     )
 
-    if(data.length === 0){
+    if (data.length === 0) {
         localStorage.removeItem("notes")
     }
-    else{
-    localStorage.setItem("notes",JSON.stringify(data));
+    else {
+        localStorage.setItem("notes", JSON.stringify(data));
 
     }
 
@@ -41,7 +40,7 @@ const saveNotes = () =>{
 const addNote = (text = "") => {
     const note = document.createElement("div");
     note.classList.add("note")
-    note.innerHTML= `
+    note.innerHTML = `
     <div class="tool">
     <i class="save fa fa-floppy-disk"></i>
     <i class="trash fa fa-trash"></i>
@@ -52,7 +51,7 @@ const addNote = (text = "") => {
 
     note.querySelector(".trash").addEventListener(
         "click",
-        function() {
+        function () {
             note.remove()
             saveNotes()
         }
@@ -60,14 +59,14 @@ const addNote = (text = "") => {
 
     note.querySelector(".save").addEventListener(
         "click",
-        function() {
+        function () {
             saveNotes()
         }
     )
 
 
 
-    
+
 
     main.appendChild(note);
     saveNotes()
@@ -77,16 +76,16 @@ const addNote = (text = "") => {
 
     function () {
         const lsNotes = JSON.parse(localStorage.getItem("notes"));
-        if(lsNotes === null){
+        if (lsNotes === null) {
             addNote();
         }
-        else{
+        else {
             lsNotes.forEach(
                 (lsNote) => {
                     addNote(lsNote)
                 }
             )
         }
-        
+
     }()
 )
