@@ -12,3 +12,8 @@ I learnt how to make the url of the selected file and also how to create a canva
 
 ##Tech Stack Used.
 Html,Css,Javasript
+
+##Video
+
+https://user-images.githubusercontent.com/99544504/209848568-149e56d5-e178-4756-8caf-0fb33f5c01ba.mp4
+
