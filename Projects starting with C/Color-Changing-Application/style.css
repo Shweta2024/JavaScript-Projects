@@ -1,4 +1,4 @@
-#canvas{
+#canvas{                                         /* canvas style add */
     background-color: red;
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -12,7 +12,7 @@
     align-items: center;
 }
 
-#button{
+ #button{                                     /*  button style add */
     text-align: center;
     width: 200px;
     height: 50px;
