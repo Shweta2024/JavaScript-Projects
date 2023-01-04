@@ -14,7 +14,3 @@ Click the link to watch the demo of the live-clock project.
 HTML 
 CSS
 JavaScript
-
-
-
-
