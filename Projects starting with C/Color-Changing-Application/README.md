@@ -1,6 +1,5 @@
 # Color Changing Application
-
-
+In this app, the background color of the canvas changes when the user clicks on a button.
 
 
 ##  Project Video 
