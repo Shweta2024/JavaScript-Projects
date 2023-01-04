@@ -74,4 +74,4 @@ $(".btn").click(function(){
     $(this).fadeIn(100).fadeOut(100).fadeIn(100);
     var audio = new Audio("button.mp3");
   audio.play();
-}
+});
