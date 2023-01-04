@@ -13,3 +13,8 @@ Click the link to watch the demo of the live-clock project.
 HTML 
 CSS
 JavaScript
+
+# Key concepts Covered by this Project
+1.) eventListener()
+2.) Array
+3.) Math.random()
