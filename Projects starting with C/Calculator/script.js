@@ -70,4 +70,8 @@ function cbrtfunc() {
 function backsc(){
     screen.value=screen.value.substr(0,screen.value.length-1);
 }
-
+$(".btn").click(function(){
+    $(this).fadeIn(100).fadeOut(100).fadeIn(100);
+    var audio = new Audio("sounds/button.mp3");
+  audio.play();
+}
