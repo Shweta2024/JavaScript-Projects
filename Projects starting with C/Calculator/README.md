@@ -10,6 +10,12 @@
 ##tech-stack
 - I used jquery, javascript,css and html.
 
+Video Demo:
+https://drive.google.com/file/d/1bME4CrsQ7Uj_dnksRxzNP36G7fClK6IK/view?usp=drivesdk
+
+
+
+
 
 
 
