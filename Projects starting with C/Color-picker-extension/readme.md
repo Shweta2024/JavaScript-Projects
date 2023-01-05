@@ -7,13 +7,13 @@ We will create a color picker Chrome extension using HTML, CSS, and JavaScript i
 4. Testing and debugging
 
 # Extension Image
-![color picker](pic_vid\color_picker.png)
+![color picker](pic_vid/color_picker.png)
 
-![extension](pic_vid\extension.png)
+![extension](pic_vid/extension.png)
 
 # Working 
 
-![](pic_vid\demo_picker.gif)
+![](pic_vid/demo_picker.gif)
 
 # Testing and Debugging
 Open Chrome and go to this URL: chrome://extensions. <br>
