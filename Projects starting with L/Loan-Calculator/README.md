@@ -19,4 +19,5 @@ Built with:
 
 ## Demo Video 
 
-Check the demo video in the files
+[Check out the Demo Video](https://user-images.githubusercontent.com/85965606/210969152-40d2a996-e8ad-498d-8c23-38efa33eb6c5.mp4)
+
