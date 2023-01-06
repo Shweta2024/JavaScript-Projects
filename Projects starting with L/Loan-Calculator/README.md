@@ -19,5 +19,4 @@ Built with:
 
 ## Demo Video 
 
-[Demo Video](/Loan_Calculator_Demo_Video.mp4)
-
+Check the demo video in the files
