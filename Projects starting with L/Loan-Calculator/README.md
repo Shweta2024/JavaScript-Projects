@@ -1,4 +1,6 @@
 ## Loan Calculator 
+The main objective of this project is to calculate and displays the results for monthly payment, total payment, and total interest according to loan amount interest rate, and years to repay.
+
 ## Features
 * Users can enter a loan amount, interest rate, and years to repay
 * Loading animation displays upon submission
