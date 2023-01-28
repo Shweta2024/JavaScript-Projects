@@ -1,9 +1,9 @@
-<div align="center">
+<!-- <div align="center">
     <img width="400" src="https://user-images.githubusercontent.com/94545831/208895341-f67f7edb-7f48-477f-afdb-9a506cbbd669.png" />
-</div>
-
+</div> -->
+<!-- 
 <p align="center"> <b>  DON'T BE AFRAID 😁 RELAX ! YOU GOT IT </b></p>
-
+ -->
 <br>
 
 
