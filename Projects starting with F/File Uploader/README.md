@@ -15,3 +15,7 @@
 - install live server extension 
 - Open index.html
 - click on live server 
+
+## Video :
+
+[trial.webm](https://user-images.githubusercontent.com/32031706/215304341-ac93b74c-a63b-4e29-a86e-f06af4bc63f9.webm)
