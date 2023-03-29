@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Image Resizer </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+        <div class="container">
+
+            <canvas class="img-area"> </canvas>
+
+            <div class="choose">
+                <input type="file" class="resizer__file">
+                <button class="chooseBtn"><i class="fa fa-file" aria-hidden="true"></i> Choose File</button>
+            </div>
+          
+            <div class="dimensions">
+                <div class="col width">
+                    <i class="fa fa-arrows-h" aria-hidden="true"></i>
+                    <input type="text" placeholder="width" class="resizer__input--width resizer__input">
+                </div>
+            
+                <i class="fa fa-times" aria-hidden="true"></i>
+
+                <div class="col height">
+                    <i class="fa fa-arrows-v" aria-hidden="true"></i>
+                    <input type="text" placeholder="height" class="resizer__input--height resizer__input">
+                </div>
+            
+            </div>
+            
+            <div class="radio">
+                <label>
+                    <input type="checkbox" class="resizer__aspect" checked>
+                    Keep Aspect Ratio   
+                </label>
+            </div>
+          
+
+        
+        </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
