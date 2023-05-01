@@ -5,10 +5,10 @@
 
 # JavaScript-Projects
 
-- This Repository contains the JavaScript Projects that one should build while learning JavaScript.
+- This Repository contains basic to advance level JavaScript Projects.
 - You can contribute to this repository by : 
-   - Fixing the existing issues.
-   - Creating a new issue on your own of new JavaScript projects.
+   - Enhancing the functionalities of pre-existing projects.
+   - Creating a new issue on your own.
    
 - Join our [Discord Channel](http://discord.openinapp.co/discord-1-10390)
 - Check [Contributing Guidelines](https://github.com/Shweta2024/JavaScript-Projects/blob/master/Guidelines.md) here.
@@ -19,6 +19,19 @@
 
 <br>
 
+
+## Technologies
+- HTML
+- CSS
+- JavaScript
+- TypeScript
+- Express
+- Node
+- React
+- MongoDB
+
+
+<br>
 
 
 ## Maintainers
