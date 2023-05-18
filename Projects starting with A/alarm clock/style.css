@@ -91,7 +91,7 @@ hr{
 }
 
 
-#btn-setAlarm, .btn-delete, #stopAlarm{
+#btn-setAlarm, .btn-delete, #stopAlarm, #snoozeAlarm{
     padding: 5px;
     color: #fff;
     background: #2E94E3;
@@ -99,17 +99,16 @@ hr{
     border-radius: 18px;
 }
 
-#stopAlarm{
+#stopAlarm, #snoozeAlarm{
     visibility: hidden;
     width: 100px;
-    margin: 0 34%;
 }
 
 .btn-delete{
     margin-left: 50px;
 }
 
-#btn-setAlarm:hover, .btn-delete:hover, #stopAlarm:hover{
+#btn-setAlarm:hover, .btn-delete:hover, #stopAlarm:hover, #snoozeAlarm:hover{
     cursor: pointer;
     background: #2E94E3;
     box-shadow: 0 0 30px #2E94E3;
@@ -139,4 +138,12 @@ h3{
     justify-content: center;
     align-items: center;
     margin: 6px auto;
+}
+
+.snooze-button{ 
+    margin: 5% 13% ;
+}
+
+#stopAlarm{
+    margin: 5% 0 ;
 }

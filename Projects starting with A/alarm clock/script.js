@@ -9,6 +9,37 @@ let alarmTime;
 let ring = new Audio("audio/Alarm-ringtone.mp3");
 
 
+//For checking the alarm status and deleting the `setAlarm` from the table if it matches the current time.
+
+
+function checkAlarmStatus() {
+    const currentTime = new Date();
+    const currentHour = currentTime.getHours();
+    const currentMinute = currentTime.getMinutes();
+    const currentSecond = currentTime.getSeconds();
+    const currentPeriod = currentHour >= 12 ? 'PM' : 'AM';
+  
+    const currentAlarmTime = `${currentHour.pad(2)}:${currentMinute.pad(2)}:${currentSecond.pad(2)} ${currentPeriod}`;
+  
+    for (let i = 0; i < alarmListArr.length; i++) {
+      if (alarmListArr[i] === currentAlarmTime) {
+        console.log("Alarm ringing...");
+        ring.load();
+        ring.play();
+        document.querySelector("#stopAlarm").style.visibility = "visible";
+        document.querySelector("#snoozeAlarm").style.visibility = "visible";
+  
+        // Get the alarm element and remove it from the table
+        const alarmElement = document.getElementById(`alarm${i + 1}`);
+        alarmElement.remove();
+  
+        // Remove the alarm time from the alarmListArr
+        alarmListArr.splice(i, 1);
+      }
+    }
+  }
+
+
 // Script for Time and Date
 
 
@@ -46,12 +77,15 @@ function updateClock(){
             document.getElementById(ids[i]).firstChild.nodeValue = values[i];
         }
 
+        checkAlarmStatus();  // Call the checkAlarmStatus function to check the alarm status
+
         for(let i=0; i<alarmListArr.length;i++){
             if(alarmListArr[i]==`${hou.pad(2)}:${min.pad(2)}:${sec.pad(2)} ${pe}`){
                 console.log("Alarm ringing...");
                 ring.load();
                 ring.play();
                 document.querySelector("#stopAlarm").style.visibility= "visible";
+                document.querySelector("#snoozeAlarm").style.visibility= "visible";
             }
         }
 }
@@ -117,8 +151,42 @@ function deleteAlarm(click_id){
     element.remove();
 }
 
+function snoozeAlarm(click_id) {
+    ring.pause();
+    document.querySelector("#stopAlarm").style.visibility= "hidden";
+    document.querySelector("#snoozeAlarm").style.visibility= "hidden";
+    
+    createAlarmLog();
+}
+
 function stopAlarm(){
     ring.pause();
     document.querySelector("#stopAlarm").style.visibility= "hidden";
+    document.querySelector("#snoozeAlarm").style.visibility= "hidden";
 }
 
+
+// Snooze the alarm for 5 minutes
+
+function createAlarmLog(){
+    document.querySelector("#alarm-h3").innerText = "Alarms";
+    let time = `${selectMenu[0].value}:${parseInt(selectMenu[1].value) + 5}:00 ${selectMenu[2].value}`;
+    alarmCount++;
+    document.querySelector(".alarmList").innerHTML += `
+    <div class="alarmLog" id="alarm${alarmCount}">
+        <span id="span${alarmCount}">${time}</span>
+        <button class="btn-delete" id="${alarmCount}" onClick="deleteAlarm(this.id)">Delete</button>
+    </div>`;
+
+    // snooze for 5 minutes
+    const snoozeTime = new Date();
+    snoozeTime.setMinutes(snoozeTime.getMinutes() + 5);
+    console.log(snoozeTime);
+
+    const hour = snoozeTime.getHours();
+    const minute = snoozeTime.getMinutes();
+    const second = snoozeTime.getSeconds();
+
+    alarmTime = `${selectMenu[0].value}:${parseInt(selectMenu[1].value) + 5}:00 ${selectMenu[2].value}`;
+    alarmListArr.push(alarmTime);
+}
